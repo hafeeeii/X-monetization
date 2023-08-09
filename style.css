@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  color: white;
+  background-color: #202125;
+  height: 100vh;
+}
+.container1 {
+  padding: 0 4vw;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 30px;
+  padding-top: 3vw;
+  padding-left: 3vw;
+  margin-bottom: 10vw;
+  color: #c3c3c3;
+}
+header .material-symbols-outlined {
+  margin-right: 4.5vw;
+}
+header .header-right .material-symbols-outlined:nth-child(4) {
+  margin-right: 2.5vw;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6vw;
+  margin-right: -1vw;
+}
+.title h4 {
+  font-size: 5vw;
+  font-weight: 400;
+  color: white;
+}
+.title span {
+  background-color: transparent;
+  border: 2px solid grey;
+  font-size: 4vw;
+  padding: 0.3vw 2vw;
+  border-radius: 5px;
+  margin-left: 2vw;
+  font-weight: 300;
+}
+.title .material-symbols-outlined {
+  border: none;
+  font-size: 9vw;
+  font-weight: 200;
+  margin-right: none;
+  padding: 0;
+  color: #c3c3c3;
+}
+.header2 {
+  display: flex;
+  justify-content: space-between;
+}
+.header2 i {
+  font-size: 10vw;
+  color: #1e9ff3;
+}
+.header2 .header2-left {
+  display: flex;
+  justify-content: space-between;
+}
+.header2 .header2-left .text {
+  margin-left: 4vw;
+  font-size: 4vw;
+}
+.header2 .header2-left .text p span {
+  font-size: 3.5vw;
+  margin-left: 2vw;
+}
+.text span {
+  color: #c3c3c3;
+}
+.sub-text {
+  font-size: 3.5vw;
+  margin-top: 1.5vw;
+  display: flex;
+  align-items: center;
+  color: #c3c3c3;
+}
+
+.sub-text i {
+  font-size: 4vw;
+  margin-left: 1vw;
+  color: #c3c3c3;
+}
+.header2-right span {
+  color: #c3c3c3;
+}
+.header2-right span:nth-child(1) {
+  margin-right: 3vw;
+}
+.x-logo {
+  display: flex;
+  justify-content: center;
+  margin: 8vw 0;
+}
+.x-logo i {
+  background-color: black;
+  font-size: 7vw;
+  padding: 1.4vw;
+}
+.content p {
+  margin-bottom: 4.5vw;
+  font-size: 3.4vw;
+  margin-left: 3vw;
+  font-weight: 400;
+  color: white;
+}
+.bottom {
+  border-left: 4px solid #7071752f;
+  border-right: 4px solid #7071752f;
+}
+.content span {
+  font-family: none;
+  font-size: 4vw;
+  font-weight: 100;
+}
